@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>賴彥霖的期末RWD網頁</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap-theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/slippry.css">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/color/default.css">
+    <script src="assets/js/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+                    <a class="navbar-brand" href="index.html">LaiMO's Photograph</a>
+
+                </div>
+
+                <div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <nav>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="works.html">Works</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- Section about -->
+    <section id="about" class="section">
+        <div class="container ">
+
+            <!--關於我-->
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="heading">
+                        <h3><span>關於我</span></h3>
+                    </div>
+                    <div class="sub-heading">
+                        <p>
+                            來自台中的攝影新手，
+                            <br>從今年3月開始接觸攝影。
+                            <br><br>雖然設備不夠好，
+                            <br>但還是想將美好的瞬間呈現給大家，
+                            <br><br>以及紀錄日平凡日常。
+                            <br>歡迎追蹤我的Instagram以查看更多。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--人像圖片與介紹-->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="team-box">
+                        <img src="assets/img/dummies/S__28573751.jpg" alt="" class="img-responsive" />
+                        <div class="roles">
+                            <h5><strong>賴彥霖</strong></h5>
+                            <p>
+                                Yan Lin LAI
+                            </p>
+                            <ul class="social-profile">
+                                <li><a href="https://www.instagram.com/laimo_500d/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- end section about -->
+
+
+
+
+    <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
+
+    <!-- javascript -->
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/slippry.min.js"></script>
+    <script src="assets/js/nagging-menu.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
+    <script src="assets/js/jquery.fancybox-media.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/validate.js"></script>
+    <script src="assets/js/AnimOnScroll.js"></script>
+    <script>
+        new AnimOnScroll(document.getElementById('grid'), {
+            minDuration: 0.4,
+            maxDuration: 0.7,
+            viewportFactor: 0.2
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#slippry-slider').slippry(
+                defaults = {
+                    transition: 'vertical',
+                    useCSS: true,
+                    speed: 5000,
+                    pause: 3000,
+                    initSingle: false,
+                    auto: true,
+                    preload: 'visible',
+                    pager: false,
+                }
+            )
+        });
+    </script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
